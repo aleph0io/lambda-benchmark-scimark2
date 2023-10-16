@@ -1,0 +1,144 @@
+{
+  "measurements": [
+    {
+      "runtime": "java8",
+      "memory": 256,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 18.16247082785305,
+        "sorSize": 1000,
+        "sorMeasurement": 69.2724604391381,
+        "monteCarloMeasurement": 49.57642871521948,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 99.1650961834753,
+        "luSize": 1000,
+        "luMeasurement": 250.40908751070114,
+        "compositeMeasurement": 97.3171087352774,
+        "totalMeasurement": 194.6342174705548
+      }
+    },
+    {
+      "runtime": "java8",
+      "memory": 512,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 34.98393540590415,
+        "sorSize": 1000,
+        "sorMeasurement": 140.19010990043975,
+        "monteCarloMeasurement": 100.55832119994311,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 194.90504915732828,
+        "luSize": 1000,
+        "luMeasurement": 522.6843977480702,
+        "compositeMeasurement": 198.66436268233713,
+        "totalMeasurement": 397.32872536467426
+      }
+    },
+    {
+      "runtime": "java8",
+      "memory": 1024,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 86.31081124461284,
+        "sorSize": 1000,
+        "sorMeasurement": 277.3529946303627,
+        "monteCarloMeasurement": 229.53010477321826,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 412.9179133408559,
+        "luSize": 1000,
+        "luMeasurement": 1153.5484615441007,
+        "compositeMeasurement": 431.93205710663005,
+        "totalMeasurement": 863.8641142132601
+      }
+    },
+    {
+      "runtime": "java8",
+      "memory": 2048,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 184.7650271440774,
+        "sorSize": 1000,
+        "sorMeasurement": 610.8637361952856,
+        "monteCarloMeasurement": 445.3554340257242,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 893.3632072568657,
+        "luSize": 1000,
+        "luMeasurement": 3756.0267011941787,
+        "compositeMeasurement": 1178.0748211632263,
+        "totalMeasurement": 2356.1496423264525
+      }
+    },
+    {
+      "runtime": "java8",
+      "memory": 4096,
+      "measurement": {
+        "minTime": 2,
+        "threads": 3,
+        "fftSize": 1048576,
+        "fftMeasurement": 242.9993485083328,
+        "sorSize": 1000,
+        "sorMeasurement": 736.9514743900054,
+        "monteCarloMeasurement": 556.2618118294638,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 1290.6713791266336,
+        "luSize": 1000,
+        "luMeasurement": 3294.660800427253,
+        "compositeMeasurement": 1224.3089628563378,
+        "totalMeasurement": 3672.9268885690135
+      }
+    },
+    {
+      "runtime": "java8",
+      "memory": 8192,
+      "measurement": {
+        "minTime": 2,
+        "threads": 5,
+        "fftSize": 1048576,
+        "fftMeasurement": 255.7149886111393,
+        "sorSize": 1000,
+        "sorMeasurement": 900.74069116448,
+        "monteCarloMeasurement": 670.4491220250638,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 1260.0091546339695,
+        "luSize": 1000,
+        "luMeasurement": 3658.697722133489,
+        "compositeMeasurement": 1349.1223357136282,
+        "totalMeasurement": 6745.611678568141
+      }
+    },
+    {
+      "runtime": "java8",
+      "memory": 10240,
+      "measurement": {
+        "minTime": 2,
+        "threads": 6,
+        "fftSize": 1048576,
+        "fftMeasurement": 256.3319648280833,
+        "sorSize": 1000,
+        "sorMeasurement": 1015.9791167571498,
+        "monteCarloMeasurement": 727.6044123953376,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 1264.554946185786,
+        "luSize": 1000,
+        "luMeasurement": 3450.017034432584,
+        "compositeMeasurement": 1342.8974949197882,
+        "totalMeasurement": 8057.384969518729
+      }
+    }
+  ]
+}
