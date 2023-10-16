@@ -139,6 +139,426 @@
         "compositeMeasurement": 1342.8974949197882,
         "totalMeasurement": 8057.384969518729
       }
+    },
+    {
+      "runtime": "java11",
+      "memory": 256,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 18.685649231247623,
+        "sorSize": 1000,
+        "sorMeasurement": 92.4580194826299,
+        "monteCarloMeasurement": 43.838173837966934,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 115.51613778768592,
+        "luSize": 1000,
+        "luMeasurement": 363.8977724443137,
+        "compositeMeasurement": 126.87915055676882,
+        "totalMeasurement": 253.75830111353764
+      }
+    },
+    {
+      "runtime": "java11",
+      "memory": 512,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 37.153721279391846,
+        "sorSize": 1000,
+        "sorMeasurement": 190.57377727824064,
+        "monteCarloMeasurement": 108.3274638615892,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 191.25886860099504,
+        "luSize": 1000,
+        "luMeasurement": 509.1394400519222,
+        "compositeMeasurement": 207.29065421442778,
+        "totalMeasurement": 414.58130842885555
+      }
+    },
+    {
+      "runtime": "java11",
+      "memory": 1024,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 86.41994250865449,
+        "sorSize": 1000,
+        "sorMeasurement": 305.02418023228694,
+        "monteCarloMeasurement": 214.83444013726597,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 404.5834375202661,
+        "luSize": 1000,
+        "luMeasurement": 1496.1324301315435,
+        "compositeMeasurement": 501.3988861060034,
+        "totalMeasurement": 1002.7977722120067
+      }
+    },
+    {
+      "runtime": "java11",
+      "memory": 2048,
+      "measurement": {
+        "minTime": 2,
+        "threads": 3,
+        "fftSize": 1048576,
+        "fftMeasurement": 112.42494402792094,
+        "sorSize": 1000,
+        "sorMeasurement": 407.47729903064936,
+        "monteCarloMeasurement": 335.92352263646757,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 497.0465513182603,
+        "luSize": 1000,
+        "luMeasurement": 2009.1089568946816,
+        "compositeMeasurement": 672.396254781596,
+        "totalMeasurement": 2017.188764344788
+      }
+    },
+    {
+      "runtime": "java11",
+      "memory": 4096,
+      "measurement": {
+        "minTime": 2,
+        "threads": 3,
+        "fftSize": 1048576,
+        "fftMeasurement": 239.92869742422747,
+        "sorSize": 1000,
+        "sorMeasurement": 866.4982187937834,
+        "monteCarloMeasurement": 610.2665836837531,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 1109.0944880838424,
+        "luSize": 1000,
+        "luMeasurement": 3377.8413814325118,
+        "compositeMeasurement": 1240.7258738836233,
+        "totalMeasurement": 3722.1776216508697
+      }
+    },
+    {
+      "runtime": "java11",
+      "memory": 8192,
+      "measurement": {
+        "minTime": 2,
+        "threads": 5,
+        "fftSize": 1048576,
+        "fftMeasurement": 268.46800867724414,
+        "sorSize": 1000,
+        "sorMeasurement": 1048.6447993563274,
+        "monteCarloMeasurement": 707.9124928032924,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 1267.0450199135557,
+        "luSize": 1000,
+        "luMeasurement": 3655.5033978280726,
+        "compositeMeasurement": 1389.5147437156986,
+        "totalMeasurement": 6947.573718578493
+      }
+    },
+    {
+      "runtime": "java11",
+      "memory": 10240,
+      "measurement": {
+        "minTime": 2,
+        "threads": 6,
+        "fftSize": 1048576,
+        "fftMeasurement": 258.21890906188696,
+        "sorSize": 1000,
+        "sorMeasurement": 1080.042170807772,
+        "monteCarloMeasurement": 756.5077966333007,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 1251.0293925082503,
+        "luSize": 1000,
+        "luMeasurement": 3512.611537203033,
+        "compositeMeasurement": 1371.6819612428487,
+        "totalMeasurement": 8230.091767457092
+      }
+    },
+    {
+      "runtime": "java17",
+      "memory": 256,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 17.699542353720908,
+        "sorSize": 1000,
+        "sorMeasurement": 61.690627111656276,
+        "monteCarloMeasurement": 8.559425578038933,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 56.3977040259396,
+        "luSize": 1000,
+        "luMeasurement": 98.27999162452956,
+        "compositeMeasurement": 48.525458138777054,
+        "totalMeasurement": 97.05091627755411
+      }
+    },
+    {
+      "runtime": "java17",
+      "memory": 512,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 34.82550936052367,
+        "sorSize": 1000,
+        "sorMeasurement": 132.40603404312998,
+        "monteCarloMeasurement": 15.553667430928993,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 124.34191396440048,
+        "luSize": 1000,
+        "luMeasurement": 181.08966150713803,
+        "compositeMeasurement": 97.64335726122425,
+        "totalMeasurement": 195.2867145224485
+      }
+    },
+    {
+      "runtime": "java17",
+      "memory": 1024,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 77.41361523611108,
+        "sorSize": 1000,
+        "sorMeasurement": 236.9409628208815,
+        "monteCarloMeasurement": 30.283731590593984,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 239.14065037827464,
+        "luSize": 1000,
+        "luMeasurement": 244.62175010030666,
+        "compositeMeasurement": 165.68014202523358,
+        "totalMeasurement": 331.36028405046716
+      }
+    },
+    {
+      "runtime": "java17",
+      "memory": 2048,
+      "measurement": {
+        "minTime": 2,
+        "threads": 3,
+        "fftSize": 1048576,
+        "fftMeasurement": 106.55200952919824,
+        "sorSize": 1000,
+        "sorMeasurement": 332.6352068943625,
+        "monteCarloMeasurement": 44.19918440484627,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 344.54253410341136,
+        "luSize": 1000,
+        "luMeasurement": 859.0679727449834,
+        "compositeMeasurement": 337.39938153536036,
+        "totalMeasurement": 1012.1981446060811
+      }
+    },
+    {
+      "runtime": "java17",
+      "memory": 4096,
+      "measurement": {
+        "minTime": 2,
+        "threads": 3,
+        "fftSize": 1048576,
+        "fftMeasurement": 217.5171332396964,
+        "sorSize": 1000,
+        "sorMeasurement": 666.3427238179082,
+        "monteCarloMeasurement": 81.39798790709072,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 658.0899632057082,
+        "luSize": 1000,
+        "luMeasurement": 1658.924629524013,
+        "compositeMeasurement": 656.4544875388833,
+        "totalMeasurement": 1969.36346261665
+      }
+    },
+    {
+      "runtime": "java17",
+      "memory": 8192,
+      "measurement": {
+        "minTime": 2,
+        "threads": 5,
+        "fftSize": 1048576,
+        "fftMeasurement": 242.37361233269567,
+        "sorSize": 1000,
+        "sorMeasurement": 805.334129350151,
+        "monteCarloMeasurement": 96.49789453297619,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 796.6093457411068,
+        "luSize": 1000,
+        "luMeasurement": 1635.115899601702,
+        "compositeMeasurement": 715.1861763117264,
+        "totalMeasurement": 3575.930881558632
+      }
+    },
+    {
+      "runtime": "java17",
+      "memory": 10240,
+      "measurement": {
+        "minTime": 2,
+        "threads": 6,
+        "fftSize": 1048576,
+        "fftMeasurement": 266.1222143528809,
+        "sorSize": 1000,
+        "sorMeasurement": 851.3031309220047,
+        "monteCarloMeasurement": 99.1739919632654,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 835.1113285753117,
+        "luSize": 1000,
+        "luMeasurement": 1699.3119219685304,
+        "compositeMeasurement": 750.2045175563985,
+        "totalMeasurement": 4501.227105338391
+      }
+    },
+    {
+      "runtime": "java17-NoTieredCompilation",
+      "memory": 256,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 17.069851179312053,
+        "sorSize": 1000,
+        "sorMeasurement": 74.60710393354647,
+        "monteCarloMeasurement": 50.2650272139066,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 69.7581176507943,
+        "luSize": 1000,
+        "luMeasurement": 355.9232320602628,
+        "compositeMeasurement": 113.52466640756445,
+        "totalMeasurement": 227.0493328151289
+      }
+    },
+    {
+      "runtime": "java17-NoTieredCompilation",
+      "memory": 512,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 38.094253653369606,
+        "sorSize": 1000,
+        "sorMeasurement": 150.3556686544745,
+        "monteCarloMeasurement": 114.77184934358377,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 177.75510817324434,
+        "luSize": 1000,
+        "luMeasurement": 770.7615690000305,
+        "compositeMeasurement": 250.34768976494053,
+        "totalMeasurement": 500.69537952988105
+      }
+    },
+    {
+      "runtime": "java17-NoTieredCompilation",
+      "memory": 1024,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 84.17089389544638,
+        "sorSize": 1000,
+        "sorMeasurement": 312.673010021356,
+        "monteCarloMeasurement": 231.89259989231778,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 404.80462469164365,
+        "luSize": 1000,
+        "luMeasurement": 1828.7884127354184,
+        "compositeMeasurement": 572.4659082472365,
+        "totalMeasurement": 1144.931816494473
+      }
+    },
+    {
+      "runtime": "java17-NoTieredCompilation",
+      "memory": 2048,
+      "measurement": {
+        "minTime": 2,
+        "threads": 2,
+        "fftSize": 1048576,
+        "fftMeasurement": 187.02505638230582,
+        "sorSize": 1000,
+        "sorMeasurement": 605.1816378984611,
+        "monteCarloMeasurement": 428.79571929484405,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 888.5794885746382,
+        "luSize": 1000,
+        "luMeasurement": 2585.0895663426227,
+        "compositeMeasurement": 938.9342936985743,
+        "totalMeasurement": 1877.8685873971485
+      }
+    },
+    {
+      "runtime": "java17-NoTieredCompilation",
+      "memory": 4096,
+      "measurement": {
+        "minTime": 2,
+        "threads": 3,
+        "fftSize": 1048576,
+        "fftMeasurement": 232.70007157364444,
+        "sorSize": 1000,
+        "sorMeasurement": 864.9650354269719,
+        "monteCarloMeasurement": 618.8833525175456,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 1135.733069178373,
+        "luSize": 1000,
+        "luMeasurement": 3333.5747325277302,
+        "compositeMeasurement": 1237.1712522448531,
+        "totalMeasurement": 3711.513756734559
+      }
+    },
+    {
+      "runtime": "java17-NoTieredCompilation",
+      "memory": 8192,
+      "measurement": {
+        "minTime": 2,
+        "threads": 5,
+        "fftSize": 1048576,
+        "fftMeasurement": 248.3426949689042,
+        "sorSize": 1000,
+        "sorMeasurement": 1037.8015522160713,
+        "monteCarloMeasurement": 739.0234574361302,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 1273.672288505188,
+        "luSize": 1000,
+        "luMeasurement": 3577.3117372596344,
+        "compositeMeasurement": 1375.2303460771857,
+        "totalMeasurement": 6876.151730385928
+      }
+    },
+    {
+      "runtime": "java17-NoTieredCompilation",
+      "memory": 10240,
+      "measurement": {
+        "minTime": 2,
+        "threads": 6,
+        "fftSize": 1048576,
+        "fftMeasurement": 266.1816260122333,
+        "sorSize": 1000,
+        "sorMeasurement": 1036.0855409733454,
+        "monteCarloMeasurement": 729.0601541659483,
+        "sparseSizeM": 100000,
+        "sparseSizeNz": 1000000,
+        "sparseMatmultMeasurement": 1301.1683088329244,
+        "luSize": 1000,
+        "luMeasurement": 3877.8330334689404,
+        "compositeMeasurement": 1442.0657326906785,
+        "totalMeasurement": 8652.394396144071
+      }
     }
   ]
 }
